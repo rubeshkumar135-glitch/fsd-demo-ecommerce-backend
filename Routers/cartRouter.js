@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import express from "express"
 import {authMiddleware} from "../Middlewares/authMiddleware.js"
 import { 
     addToCart,
